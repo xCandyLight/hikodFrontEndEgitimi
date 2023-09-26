@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <title>Özel Nilüfer Hastanesi</title>
+</head>
+
+<body id="body">
+
+<div id="navBar" class="navbar navbar-expand-sm navbar-light fixed-top" >
+    <img id="logo" class="navbar-brand" src="img/logo.png">
+    <h1 class="display-4">Özel Nilüfer Hastanesi</h1>
+
+    <ul class="navbar-nav" style="margin-left: 300px;">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">ANASAYFA</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">HASTANELER</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">TIBBİ BİRİMLER</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">DOKTORLAR</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">HAKKIMIZDA</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">İLETİŞİM</a>
+        </li>
+    </ul>
+</div>
+
+<div id="slide1" class="carousel slide" data-ride="carousel" style="margin-top: 300px;">
+
+    <ul class="carousel-indicators">
+      <li data-target="#slide1" data-slide-to="0" class="active"></li>
+      <li data-target="#slide1" data-slide-to="1"></li>
+      <li data-target="#slide1" data-slide-to="2"></li>
+    </ul>
+  
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/doktorlar.jpeg" alt="doktorlar" >
+      </div>
+      <div class="carousel-item">
+        <img src="img/doktorlar2.jpeg" alt="doktorlar2" >
+      </div>
+      <div class="carousel-item">
+        <img src="img/doktorlar3.jpg" alt="doktorlar3" >
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#slide1" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#slide1" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+<div id="form" class="container" style="margin-top: 50px;">
+    <div style="margin: 10px; padding: 20px;">
+    <h1 class="display-4">Düşünceleriniz Bizler İçin Çok Değerli</h1><br>
+    <p>Öneri, Şikayet ve Yardım Almak İçin Destek Kaydınızı Hemen Oluşturun.</p>
+    <div class="form-group">
+        <table class="table table-borderless">
+            <tr>
+                <td><input type="text" class="form-control" placeholder="Adınız"></td>
+                <td><input type="text" class="form-control" placeholder="Soyadınız"></td>
+            </tr>
+            <tr>
+                <td><input type="email" class="form-control" placeholder="E-Postanız"></td>
+                <td><input type="tel" class="form-control" placeholder="Telefon Numaranız"></td>
+            </tr>
+            <tr>
+                <td>
+                     <select class="dropdown form-control">
+                     <option value>Tıbbi Birim Seçiniz</option>
+                     <option value="Aile Hekimliği">Aile Hekimliği</option>
+                     <option value="Amatem(Alkol ve Madde Bağımlılığı)">Amatem(Alkol ve Madde Bağımlılığı)</option>
+                     <option value="Anesteziyoloji ve Reanimasyon">Anesteziyoloji ve Reanimasyon</option>
+                     <option value="Beyin ve Sinir Cerrahisi">Beyin ve Sinir Cerrahisi</option> 
+                     <option value="Çocuk Cerrahisi">Çocuk Cerrahisi</option>
+                     <option value="Çocuk Diş Hekimliği">Çocuk Diş Hekimliği</option>
+                     <option value="Çocuk Enfeksiyon Hastalıkları">Çocuk Enfeksiyon Hastalıkları</option>
+                     <option value="Çocuk Göğüs Hastalıkları">Çocuk Göğüs Hastalıkları</option>
+                     <option value="Çocuk Hematolojisi ve Onkolojisi">Çocuk Hematolojisi ve Onkolojisi</option>
+                     <option value="Çocuk İmmünolojisi ve Alerji Hastalıkları">Çocuk İmmünolojisi ve Alerji Hastalıkları</option>
+                     <option value="Çocuk Kalp ve Damar Cerrahisi">Çocuk Kalp ve Damar Cerrahisi</option>
+                     <option value="Çocuk Sağlığı ve Hastalıkları">Çocuk Sağlığı ve Hastalıkları</option>
+                     <option value="Çocuk Ürolojisi">Çocuk Ürolojisi</option>
+                     <option value="Çocuk ve Ergen Madde ve Alkol Bağımlılığı">Çocuk ve Ergen Madde ve Alkol Bağımlılığı</option>
+                     <option value="Çocuk ve Ergen Ruh Sağlığı ve Hastalıkları">Çocuk ve Ergen Ruh Sağlığı ve Hastalıkları</option>
+                     <option value="Deri ve Zührevi Hastalıkları(Cildiye)">Deri ve Zührevi Hastalıkları(Cildiye)</option>
+                     <option value="Diş Hekimliği(Genel Diş)">Diş Hekimliği(Genel Diş)</option>
+                     <option value="El Cerrahisi">El Cerrahisi</option>
+                     <option value="Fiziksel Tıp ve Rehabilitasyon">Fiziksel Tıp ve Rehabilitasyon</option>
+                     <option value="Genel Cerrahi">Genel Cerrahi</option>
+                     <option value="Göğüs Cerrahisi">Göğüs Cerrahisi</option>
+                     <option value="Göğüs Hastalıkları">Göğüs Hastalıkları</option>
+                     <option value="Kalp ve Damar Cerrahisi">Kalp ve Damar Cerrahisi</option>
+                     <option value="Ruh Sağlığı ve Hastalıkları(Psikiyatri)">Ruh Sağlığı ve Hastalıkları(Psikiyatri)</option>
+
+                    </select>
+                </td>
+                <td>
+                    <select class="dropdown form-control">
+                     <option value>Konu Seçiniz</option>
+                     <option value="Öneri">Öneri</option>
+                     <option value="Şikayet">Şikayet</option>
+                     <option value="Destek ve Bilgilendirme">Destek ve Bilgi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+               <td colspan="2"><textarea cols="140" rows="5" placeholder="Mesajınız"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="btn">GÖNDER</button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+</div>
+
+
+<div id="footer" class="navbar navbar-expand-sm navbar-light">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-phone"></i></a></li>  
+      <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-envelope"></i></a></li>
+    </ul>
+
+
+</div>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+
+</html>

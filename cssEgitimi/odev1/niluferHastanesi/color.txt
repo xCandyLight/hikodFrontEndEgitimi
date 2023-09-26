@@ -1,0 +1,15 @@
+// Sitedeki Ana Renkler //
+--------------------------
+#669999
+#9966ff
+#9966ff
+#9999ff
+#ccccff
+#cc99ff
+#6666ff
+#884dff
+
+// Beyaz ve Siyah //
+--------------------
+#ffffff
+#000000
